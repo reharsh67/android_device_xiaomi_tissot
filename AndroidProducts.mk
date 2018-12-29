@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_tissot.mk
+    $(LOCAL_DIR)/syberia_tissot.mk

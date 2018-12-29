@@ -41,17 +41,16 @@
          policy/src/com/android/internal/policy/impl/PhoneWindowManager.java -->
     <integer name="config_longPressOnHomeBehavior">3</integer>
    
-    <!-- HW Button Backlight -->
-    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
-    <integer name="config_buttonBrightnessSettingDefault">128</integer>
+    <bool name="config_button_brightness_support">true</bool>
+    <integer name="config_button_brightness_default">128</integer>
+	
+     <!-- Does the notification LED support multiple colors?
+	   Used to decide if the user can change the colors -->
+    <bool name="config_multiColorNotificationLed">false</bool>
 
 	<!-- Used to decide if the user can change the colors -->
 	<bool name="config_multiColorBatteryLed">false</bool>
-	
-	<!-- Whether the device supports Smart Pixels
-       Disable if it doesn't -->
-	<bool name="config_enableSmartPixels">false</bool>
-  
+	  
 	<!-- Whether the device has outdated qti-telephony-common.jar -->
 	<bool name="config_oldQtiTelephony">false</bool>
    

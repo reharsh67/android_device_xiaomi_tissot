@@ -1,12 +1,12 @@
-# Bliss Roms
-git clone https://github.com/LineageOS/android_packages_resources_devicesettings.git packages/resources/devicesettings -b lineage-16.0
-git clone https://github.com/Tissot-Beast/device_xiaomi_tissot.git device/xiaomi/tissot -b p9.0
-git clone https://github.com/Tissot-Beast/device_xiaomi_msm8953-common.git device/xiaomi/msm8953-common -b p9.0
+# Syberia OS
+git clone https://github.com/Tissot-Beast/device_xiaomi_tissot.git device/xiaomi/tissot -b 9.0
+git clone https://github.com/Tissot-Beast/device_xiaomi_msm8953-common.git device/xiaomi/msm8953-common -b 9.0
 git clone https://github.com/Tissot-Beast/proprietary_vendor_xiaomi.git vendor/xiaomi -b lineage-16.0-4.9
 git clone https://github.com/Tissot-Beast/kernel_xiaomi_msm8953.git kernel/xiaomi/msm8953 -b lineage-16.0-4.9
+git clone https://github.com/LineageOS/android_packages_resources_devicesettings.git packages/resources/devicesettings -b lineage-16.0
+git clone https://github.com/LineageOS/android_hardware_qcom_fm.git hardware/qcom/fm -b lineage-16.0
 git clone https://github.com/LineageOS/android_packages_apps_FMRadio.git packages/apps/FMRadio -b lineage-16.0
 git clone https://github.com/LineageOS/android_vendor_qcom_opensource_thermal-engine.git vendor/qcom/opensource/thermal-engine -b lineage-16.0
 git clone https://github.com/LineageOS/android_hardware_qcom_thermal.git hardware/qcom/thermal -b lineage-16.0
 git clone https://github.com/LineageOS/android_hardware_qcom_vr.git hardware/qcom/vr -b lineage-16.0
-
-https://github.com/LineageOS/android_build/commit/1aa73a65872a54f3f951ac2a34fac81a9d082841
+git clone https://github.com/LineageOS/android_hardware_qcom_bootctrl.git hardware/qcom/bootctrl -b lineage-16.0
