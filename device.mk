@@ -68,6 +68,10 @@ PRODUCT_PACKAGES += \
 # Keymaster
 PRODUCT_PACKAGES += \
     libkeymaster1
+	
+# OTA Updates
+PRODUCT_PACKAGES += \
+    Updater
 
 # Ramdisk
 PRODUCT_PACKAGES += \
