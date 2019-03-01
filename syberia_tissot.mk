@@ -23,6 +23,7 @@ $(call inherit-product, device/xiaomi/tissot/device.mk)
 
 # Inherit some common B stuff.
 $(call inherit-product, vendor/syberia/common.mk)
+$(call inherit-product, vendor/MiuiCamera/config.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
