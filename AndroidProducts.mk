@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_tissot.mk
+    $(LOCAL_DIR)/revengeos_tissot.mk

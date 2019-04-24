@@ -21,15 +21,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/tissot/device.mk)
 
-# Inherit some common B stuff.
-$(call inherit-product, vendor/syberia/common.mk)
-$(call inherit-product, vendor/MiuiCamera/config.mk)
+# Inherit some common RevengeOS stuff.
+$(call inherit-product, vendor/revengeos/config/common.mk)
+$(call inherit-product, vendor/revengeos/config/gsm.mk)
 
+# Inherit some common AOSP stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
+IS_PHONE := true
+REVENGEOS_BUILDTYPE := OFFICIAL
+TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tissot
-PRODUCT_NAME := syberia_tissot
+PRODUCT_NAME := revengeos_tissot
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A1

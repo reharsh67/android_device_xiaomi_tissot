@@ -1,1 +1,1 @@
-add_lunch_combo syberia_tissot-userdebug
+add_lunch_combo revengeos_tissot-user
