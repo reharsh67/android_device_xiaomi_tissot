@@ -31,6 +31,9 @@ IS_PHONE := true
 REVENGEOS_BUILDTYPE := OFFICIAL
 TARGET_GAPPS_ARCH := arm64
 
+# Twrp
+BUILD_TWRP := true
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tissot
 PRODUCT_NAME := revengeos_tissot
