@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from tissot device
 $(call inherit-product, device/xiaomi/tissot/device.mk)
 
-# Inherit some common Evolution X stuff.
+# Inherit some common Revenge OS stuff.
 IS_PHONE := true
 REVENGEOS_BUILDTYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
