@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from tissot device
 $(call inherit-product, device/xiaomi/tissot/device.mk)
 
-# Inherit some common DerpFest OS stuff.
+
 $(call inherit-product, vendor/ion/config/common.mk)
 
 # Device identifier. This must come after all inclusions
@@ -39,8 +39,8 @@ TARGET_BOOT_ANIMATION_RES := 1080
 IS_PHONE := true
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.ion.maintainer=Reharsh
-ION_BUILD_TYPE := Official
-ION_RELEASE_TYPE := Release
+ION_BUILD_TYPE := OFFICIAL
+ION_RELEASE_TYPE := RELEASE
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="tissot-user 8.0.0 OPR1.170623.026 8.1.10 release-keys"
 
